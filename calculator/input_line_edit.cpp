@@ -1,5 +1,6 @@
 #include "input_line_edit.h"
 #include <QDebug>
+#include
 InputLineEdit::InputLineEdit():QLineEdit()
 {
 
