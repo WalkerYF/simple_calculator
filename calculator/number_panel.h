@@ -18,6 +18,7 @@ public slots:
 
 private:
 //    NumberPanel number_button_[12];
+    QGridLayout *number_panel_layout_;
 };
 
 #endif // NUMBER_PANEL_H

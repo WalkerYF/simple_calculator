@@ -33,7 +33,8 @@ SOURCES += \
     number_panel.cpp \
     control_panel.cpp \
     abstract_panel.cpp \
-    compute_engine.cpp
+    compute_engine.cpp \
+    output_label.cpp
 
 HEADERS += \
     number_panel.h \
@@ -45,7 +46,8 @@ HEADERS += \
     abstract_button.h \
     control_panel.h \
     abstract_panel.h \
-    compute_engine.h
+    compute_engine.h \
+    output_label.h
 
 FORMS += \
         mainwindow.ui

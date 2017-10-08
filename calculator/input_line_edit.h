@@ -9,6 +9,8 @@ class InputLineEdit : public QLineEdit
     Q_OBJECT
 public:
     InputLineEdit();
+signals:
+    void finishedCompute(QString);
 public slots:
     void addItem(const QString &);
     void deleteItem();

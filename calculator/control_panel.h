@@ -15,6 +15,7 @@ public:
 signals:
     void deleteButtonBeClicked();
     void equalButtonBeClicked();
+    void clearButtonBeClicked();
 public slots:
 private:
     QHBoxLayout * control_panel_layout_;

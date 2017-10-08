@@ -1,7 +1,7 @@
 #ifndef DISPLAY_FILE_H
 #define DISPLAY_FILE_H
 
-
+#include "output_label.h"
 #include "input_line_edit.h"
 #include "abstract_button.h"
 #include "operator_panel.h"

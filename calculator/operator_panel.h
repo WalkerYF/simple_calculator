@@ -18,7 +18,7 @@ signals:
 public slots:
 
 private:
-
+    QGridLayout * operator_panel_layout;
 
 };
 

@@ -22,8 +22,8 @@ public slots:
 private:
     QGridLayout *main_layout_;
 
-   // lineedit and outputlabel
     InputLineEdit *input;
+    OutputLabel *output;
 
     NumberPanel *number_panel_;
     OperatorPanel *operator_panel_;

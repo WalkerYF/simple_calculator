@@ -5,9 +5,9 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-//    Calculator test;
-//    test.show();
     MainPanel t;
+    t.resize(200, 100);
+    t.setWindowTitle("my calculator!");
     t.show();
     return a.exec();
 }
