@@ -4,6 +4,9 @@
 #include <QObject>
 #include <QPushButton>
 
+// 按钮的基类
+// 使用QString初始化按钮
+// 并且定义了槽函数passItem，用于传递按钮信息，发射信号
 class AbstractButton : public QPushButton
 {
     Q_OBJECT

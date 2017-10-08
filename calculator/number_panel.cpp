@@ -25,8 +25,8 @@ NumberPanel::NumberPanel(QWidget *parent) : AbstractPanel(parent)
     connect(digit9, SIGNAL(beClicked(QString)), this, SIGNAL(buttonBeClicked(QString)));
 
 
-    NumberButton * digit10 = new NumberButton("%");
-    connect(digit10, SIGNAL(beClicked(QString)), this, SIGNAL(buttonBeClicked(QString)));
+//    NumberButton * digit10 = new NumberButton("%");
+//    connect(digit10, SIGNAL(beClicked(QString)), this, SIGNAL(buttonBeClicked(QString)));
     NumberButton * digit0 = new NumberButton("0");
     connect(digit0, SIGNAL(beClicked(QString)), this, SIGNAL(buttonBeClicked(QString)));
     NumberButton * digit12 = new NumberButton(".");
@@ -43,7 +43,7 @@ NumberPanel::NumberPanel(QWidget *parent) : AbstractPanel(parent)
     number_panel_layout_->addWidget(digit7, 2, 0);
     number_panel_layout_->addWidget(digit8, 2, 1);
     number_panel_layout_->addWidget(digit9, 2, 2);
-    number_panel_layout_->addWidget(digit10, 3, 0);
+//    number_panel_layout_->addWidget(digit10, 3, 0);
     number_panel_layout_->addWidget(digit0, 3, 1);
     number_panel_layout_->addWidget(digit12, 3, 2);
 }

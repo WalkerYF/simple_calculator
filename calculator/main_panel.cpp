@@ -14,6 +14,7 @@ MainPanel::MainPanel(QWidget *parent) : QWidget(parent)
     connect(operator_panel_, SIGNAL(buttonBeClicked(QString)), input, SLOT(addItem(QString)));
     connect(control_panel_, SIGNAL(deleteButtonBeClicked()), input, SLOT(deleteItem()));
     connect(control_panel_, SIGNAL(equalButtonBeClicked()), input, SLOT(computeResult()));
+    connect(input, SIGNAL(returnPressed()), input, SLOT(computeResult()));
     connect(control_panel_, SIGNAL(clearButtonBeClicked()), input, SLOT(clear()));
     connect(input, SIGNAL(finishedCompute(QString)), output, SLOT(displayResult(QString)));
 

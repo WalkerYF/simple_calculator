@@ -4,6 +4,8 @@
 #include <QObject>
 #include <QLabel>
 
+
+// 用于输出结果
 class OutputLabel : public QLabel
 {
     Q_OBJECT

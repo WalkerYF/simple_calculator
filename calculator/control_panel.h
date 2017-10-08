@@ -6,6 +6,7 @@
 #include <QVBoxLayout>
 #include "abstract_panel.h"
 
+// 控制面板的按键
 class ControlPanel : public AbstractPanel
 {
     Q_OBJECT

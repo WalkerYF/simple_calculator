@@ -1,7 +1,6 @@
 INPUT(
 ./debug\main.o
 ./debug\operator_panel.o
-./debug\main_window.o
 ./debug\main_panel.o
 ./debug\input_line_edit.o
 ./debug\abstract_button.o
@@ -12,7 +11,6 @@ INPUT(
 ./debug\output_label.o
 ./debug\moc_number_panel.o
 ./debug\moc_operator_panel.o
-./debug\moc_main_window.o
 ./debug\moc_main_panel.o
 ./debug\moc_input_line_edit.o
 ./debug\moc_abstract_button.o

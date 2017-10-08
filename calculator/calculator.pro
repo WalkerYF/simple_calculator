@@ -26,7 +26,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
     operator_panel.cpp \
-    main_window.cpp \
     main_panel.cpp \
     input_line_edit.cpp \
     abstract_button.cpp \
@@ -40,7 +39,6 @@ HEADERS += \
     number_panel.h \
     display_file.h \
     operator_panel.h \
-    main_window.h \
     main_panel.h \
     input_line_edit.h \
     abstract_button.h \

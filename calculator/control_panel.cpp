@@ -1,7 +1,10 @@
 #include "control_panel.h"
 
+
+
 ControlPanel::ControlPanel(QWidget *parent) : AbstractPanel(parent)
 {
+    // 定义了三个按键， 并连接好对应的信号和槽函数
     ControlButton * equalButton = new ControlButton("=");
     connect(equalButton, SIGNAL(clicked()), this, SIGNAL(equalButtonBeClicked()));
 
